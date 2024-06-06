@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+.exo-2-<uniquifier> {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;}
+body{font-family:"Exo 2", sans-serif;font-size: 16px;color: #666666;margin: 0}
+header{width: 100%; left: 0; top: 50px; z-index: 10} 
+img{width: 100px;kheight:auto}
+.logo{ width: 20px ;margin: 10px} 
+.menu ul{margin: 0; padding: 0; list-style: none; display: flex;text-align: center}
+.menu{padding-top: 0px; margin: auto}
+.menu ul li a{padding: 10px 20px; text-decoration: none; font-size: 17px; color: #C4C4C4}
+.menu ul li a:hover{color: #AB0002}
+.icon1{padding-right: 150px;padding: 12px 0px 0px }
+.icon1 img{width: 30px;height: 20px;object-fit: scale-down}
+.banner{width: 100%;min-height: 500px}
+main{width: 100%; min-height: 500px}
+.gach-chan{border-bottom: 3px solid darkred}
+.text-do{color: darkred}
+.vien{border: 1px	solid darkred; padding: 10px; border-radius: 5px; width: 100%; position: relative; overflow: hidden}
+.icon{width: 80%; height: 45px; position: absolute; left: 10%; top: -20%; display: flex; justify-content: space-around; transition: all 1s;padding: 20px}
+.icon a{width: 45px; height: 45px; background-color: darkred; border-radius: 50%; display: flex; justify-content: center; align-items: center; text-decoration: none; color: white}
+.icon a:hover{background-color: gray; color: darkred}
+.vien:hover .icon{top: 40%}
+.box{width: 200px; height: 100px; border: 1px solid #F35926;border-radius: 5px;display: flex}
+.caption{width: 100%;position: absolute;margin-top: 40px}
+.banner2{position: absolute;width: 100%}
+.container2{display: flex;justify-content: center;align-items: center;height: 300px}
+.trang{border: 2px solid #B90003;border-radius: 5px; position:relative;padding: 20px;text-align: center;margin: 10px;width: 200px;color: darkred}
+.show-more{text-decoration: none;color: darkred}
+.show-more:hover{color: darkblue}
+#feature{width: 100%;min-height: 800px;background-image: url("../IMG/bg2.png");background-repeat: no-repeat;background-size: cover;background-position: bottom center}
+#contact{width: 100%;min-height: 600px; background-image: url("../IMG/Banner2.png");background-repeat: no-repeat;background-size: cover;background-position: center top}
+.shadow{min-height: 200px;border-radius: 1px gray ;box-shadow: 5px 5px 5px gray; padding: 30px }
+.form-control{padding: 8px;width: 100%; margin-bottom: 10px}
+.bt-30{padding-top: 40px}
